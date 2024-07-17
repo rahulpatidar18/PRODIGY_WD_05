@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Bix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">Weather Bix</div>
+        <form>
+            <div class="search">
+                <input type="text" placeholder="Enter the city" id="in">
+                <button class="but"><img src="images/search.png" alt="Search"></button>
+            </div>
+        </form>
+    </nav>
+    
+    <main>
+        <section class="name">
+            <div class="city"></div>
+            <div class="des">
+                Weather Bix provides accurate information on the temperature, humidity, and wind information of the city you enter in the search box.
+            </div>
+        </section>
+        <section class="col">
+            <div class="notfound">
+                <div class="box">
+                    <img src="images/404.png" alt="Location not found">
+                    <p>OOPS! Location not found</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="head">Humidity</div>
+                <div class="down">
+                    <img src="images/humid.png" alt="Humidity">
+                    <p class="info humidity">52%</p>
+                    <p class="extra ex-pre">Pressure is: 50</p>
+                </div>
+            </div>
+            <div class="box mid">
+                <div class="head">Temperature</div>
+                <div class="temp-down">
+                    <img src="images/rainy.png" class="weather-icon" alt="Temperature">
+                    <p class="info temp">36°C</p>
+                    <p class="extra ex-temp">Feels like: 32°C</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="head">Wind</div>
+                <div class="wind-down">
+                    <img src="images/wind.png" alt="Wind">
+                    <p class="info wind">5 km/h</p>
+                    <p class="extra ex-wind">Degree: 25°</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="srcipt.js"></script>
+</body>
+</html>

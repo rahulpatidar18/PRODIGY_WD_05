@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(backimage/somg.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.navbar {
+    margin-left: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.brand {
+    font-size: 2.5rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    height: 45px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #555;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+.search button img {
+    width: 20px;
+}
+
+col {
+    text-align: center;
+}
+
+.box {
+    width: 25%;
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: rgba(68, 63, 58, 0.20);
+    backdrop-filter: blur(20px);
+
+}
+
+.head {
+    margin: 25px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.box img {
+    margin: 10px;
+    width: 100px;
+}
+
+.city {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.des {
+    text-align: center;
+    font-size: 36px;
+    width: 20em;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.col{
+    margin-top: 35px;
+    justify-content: space-between;
+    text-align: center;
+}
+.info{
+    margin: 15px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.extra{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    position: inherit;
+}
+.name{
+    margin: 80px;
+}
+.navbar, .search input, .search button {
+    transition: all 0.3s ease;
+}
+
+.search button:hover {
+    transform: scale(1.4);
+    background-color: #82d8d8; /* Example color change */
+}
+.search input:hover{
+    transform: scale(1.1);
+    background-color: #82d8d8;   
+}
+.box {
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px); /* Example: Move box up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Example: Add box shadow on hover */
+}
+body {
+    transition: background-image 1s ease;
+}
+.down,.temp-down,.wind-down{
+    display: none;
+}
+.notfound{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    display: none;
+}
+.notfound img{
+    width: 90%;
+}
+.notfound p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
